@@ -12,7 +12,7 @@
 				<img src="CSS/IMG/logo.png" alt="Logo de l'entreprise"/>
 			</article>
 			<article>
-				<h2>Présentation du site WEB</h2></br>
+				<h2><u>Présentation du site WEB</u></h2></br>
 				<p>Un livre d'or où vous pouvez poster des commentaires, vous créer un compte et modifier votre profil.</p>
 			</article>
 		</main>

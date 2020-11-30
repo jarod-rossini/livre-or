@@ -1,3 +1,10 @@
+<?php
+	if(!isset($_SESSION['login'])){
+		$_SESSION['connected'] = 'Vous devez être connecté pour poster un commentaire';
+	}
+	else{$_SESSION['connected'] = '';}
+?>
+
 <html lang="fr">
 	<head>
 		<meta name="viewport" content="width=device-width">
@@ -7,7 +14,8 @@
 	</head>
 	<body>
 		<?php include 'mainheader.php' ?>
-		<main>
+		<main class="mainlivreor">
+			<h2><?php echo $_SESSION['connected']; ?></h2>
 		</main>
 		<?php include 'mainfooter.php' ?>
 	</body>

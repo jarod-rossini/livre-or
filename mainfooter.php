@@ -7,10 +7,10 @@
 	</div>
 	<nav>
 		<a href="index.php">Accueil</a>
-		<a href="inscription.php">Inscription</a>
-		<a href="connexion.php">Connexion</a>
+		<a class="liinscription" href="inscription.php">Inscription</a>
+		<a class="liconnexion" href="connexion.php">Connexion</a>
 		<a href="commentaire.php">Commentaire</a>
 		<a href="livre-or.php">Livre d'or</a>
-		<a href="profil.php">Profil</a>
+		<a class="liprofil" href="profil.php">Profil</a>
 	</nav>
 </footer>
