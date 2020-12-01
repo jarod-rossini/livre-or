@@ -38,7 +38,7 @@
 		else{
 			$_SESSION['login'] = $_POST['login'];
 			$_SESSION['password'] = $_POST['password'];
-			$_SESSION['header'] = '<style>.liconnexion, .liinscription{position: absolute; z-index: -10; left: 2000px; opacity: 0;} .liprofil{position: relative; z-index: 1; opacity: 1;}</style>';
+			$_SESSION['header'] = '<style>.liconnexion, .liinscription{position: absolute; z-index: -10; left: 2000px; opacity: 0;} .liprofil, .licommentaire{position: relative; z-index: 1; opacity: 1;}</style>';
 			
 			header('location: profil.php');
 		}

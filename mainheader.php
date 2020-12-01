@@ -18,7 +18,7 @@
 			<li><a href="index.php">Accueil</a></li>
 			<li class="liinscription"><a href="inscription.php">Inscription</a></li>
 			<li class="liconnexion"><a href="connexion.php">Connexion</a></li>
-			<li><a href="commentaire.php">Commentaire</a></li>
+			<li class="licommentaire"><a href="commentaire.php">Commentaire</a></li>
 			<li><a href="livre-or.php">Livre-or</a></li>
 			<li class="liprofil"><a href="profil.php">Profil</a></li>
 		</ul>

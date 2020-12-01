@@ -38,6 +38,7 @@ header a{color: black; padding: 10%;}
 header ul{display: flex; justify-content: space-evenly;}
 	header li{list-style: none; width: 10%;}
 		.liprofil{opacity: 0; position: absolute; z-index: -10;}
+		.licommentaire{opacity: 0; position: absolute; z-index: -10;}
 	
 /*FOOTER____________________________*/
 footer{
@@ -123,12 +124,28 @@ footer nav{display: flex; justify-content: space-evenly; width: 50%;}
 		.mainconnexion input{border-radius: 10px;}
 
 /*COMMENTAIRE*/
+.maincommentaire{
+	display: flex; 
+	justify-content: center; 
+	width: 100%; 
+	font-family: police2;
+	font-size: 1.5em;
+	background-color: #C2263E;
+	height: 60%;
+	box-shadow: 0 10px 20px black;
+	text-align: center;
+}
+	.maincommentaire form{display: flex; flex-direction: column; justify-content: center;}
+		.maincommentaire input, .maincommentaire textarea{border-radius: 10px;}
+		.maincommentaire textarea{width: 30vw; height: 15vh;}
+
 /*LIVRE D'OR*/
 .mainlivreor{
 	box-shadow: 10px 10px 30px black;
 	width: 80%;
 	background-color: white;
-	height: 80%;
+	height: 60%;
+	overflow-y: scroll;
 }
 
 /*PROFIL*/

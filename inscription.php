@@ -30,7 +30,7 @@
 			if(mysqli_num_rows($table) == 0){
 				$_SESSION['login'] = $_POST['login'];
 				$_SESSION['password'] = $_POST['password'];
-				$_SESSION['header'] = '<style>.liinscription, .liconnexion{opacity: 0; position: absolute; z-index: -10; right: -200%;} .liprofil{opacity: 1; position: relative; z-index: 1;} </style>';
+				$_SESSION['header'] = '<style>.liinscription, .liconnexion{opacity: 0; position: absolute; z-index: -10; right: -200%;} .liprofil, .licommentaire{opacity: 1; position: relative; z-index: 1;} </style>';
 				
 				$table = $bdd->prepare('INSERT INTO utilisateurs(login, password) VALUES("'.$_POST['login'].'","'.$_POST['password'].'")');
 				$table->execute();
